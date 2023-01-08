@@ -1,5 +1,6 @@
 from datetime import datetime
 from playsound import playsound
+from colorama import Fore
 alarm_time = input(Fore.BLUE + "Enter a time for alarm with this format (HH:MM) >> ")
 alarm_hour = alarm_time[0:2]
 alarm_minute = alarm_time[3:5]
